@@ -166,6 +166,7 @@
 		C58D57D3263022A800966F5F /* WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D57C5263022A800966F5F /* WHToast.m */; };
 		C58D57D4263022A800966F5F /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D57C7263022A800966F5F /* WHToast+DDToast.m */; };
 		C58D57D5263022A800966F5F /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C58D57C8263022A800966F5F /* toastLoading.gif */; };
+		C58E90E926312EBC00D1EDB8 /* UIButton+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E90E826312EBC00D1EDB8 /* UIButton+DataBinding.m */; };
 		C5EA116A26311EF000155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA116826311EF000155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
@@ -493,6 +494,8 @@
 		C58D57C7263022A800966F5F /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
 		C58D57C8263022A800966F5F /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
 		C58D57C9263022A800966F5F /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
+		C58E90E726312EBC00D1EDB8 /* UIButton+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DataBinding.h"; sourceTree = "<group>"; };
+		C58E90E826312EBC00D1EDB8 /* UIButton+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DataBinding.m"; sourceTree = "<group>"; };
 		C5EA116826311EF000155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
 		C5EA116926311EF000155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
 		FD9E9654EE2E7AC7760A8197 /* Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseCustomizeUIKitDemoProjTests/Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -933,6 +936,7 @@
 		C58D54952630216600966F5F /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				C58E90E626312EBC00D1EDB8 /* UIButton+DataBinding */,
 				C58D54962630216600966F5F /* 高度自定义的按钮 */,
 				C58D549A2630216600966F5F /* 高仿抖音点赞动画 */,
 				C58D549E2630216600966F5F /* UIButton+Timer */,
@@ -2251,6 +2255,15 @@
 			path = PodsManual;
 			sourceTree = "<group>";
 		};
+		C58E90E626312EBC00D1EDB8 /* UIButton+DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				C58E90E726312EBC00D1EDB8 /* UIButton+DataBinding.h */,
+				C58E90E826312EBC00D1EDB8 /* UIButton+DataBinding.m */,
+			);
+			path = "UIButton+DataBinding";
+			sourceTree = "<group>";
+		};
 		C5EA116726311EF000155822 /* UILabel+Gesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -2601,6 +2614,7 @@
 				C58D563C2630216700966F5F /* BaseViewController.m in Sources */,
 				C58D560D2630216600966F5F /* UIView+Gradient.m in Sources */,
 				C58D55F52630216600966F5F /* UITableViewCell+Margin.m in Sources */,
+				C58E90E926312EBC00D1EDB8 /* UIButton+DataBinding.m in Sources */,
 				C58D55FE2630216600966F5F /* UIButton+Timer.m in Sources */,
 				C58D56202630216700966F5F /* BaseCollectionView.m in Sources */,
 				C58D53912630206200966F5F /* NSTimerManager.m in Sources */,
