@@ -676,12 +676,12 @@
 		C58D53742630206200966F5F /* TimerManager */ = {
 			isa = PBXGroup;
 			children = (
-				C58D53752630206200966F5F /* DispatchTimerManager */,
-				C58D53782630206200966F5F /* TimerManager_DefineStructure.h */,
-				C58D53792630206200966F5F /* NSTimerManager */,
-				C58D537C2630206200966F5F /* TimerManager.h */,
-				C58D537D2630206200966F5F /* Nanosecond_TimerManager */,
 				C58D53802630206200966F5F /* CADisplayLink_TimerManager */,
+				C58D53752630206200966F5F /* DispatchTimerManager */,
+				C58D537D2630206200966F5F /* Nanosecond_TimerManager */,
+				C58D53792630206200966F5F /* NSTimerManager */,
+				C58D53782630206200966F5F /* TimerManager_DefineStructure.h */,
+				C58D537C2630206200966F5F /* TimerManager.h */,
 			);
 			path = TimerManager;
 			sourceTree = "<group>";
@@ -746,34 +746,34 @@
 		C58D546D2630216600966F5F /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
-				C58D546E2630216600966F5F /* UIImage */,
-				C58D54832630216600966F5F /* UILabel */,
-				C58D54882630216600966F5F /* UITableViewCell */,
-				C58D54952630216600966F5F /* UIButton */,
-				C58D54AF2630216600966F5F /* UIColor */,
-				C58D54B82630216600966F5F /* UIView */,
-				C58D54E72630216600966F5F /* UIFont */,
+				C58D55D22630216600966F5F /* BaseProtocol */,
+				C58D55972630216600966F5F /* CALayer */,
+				C58D55D62630216600966F5F /* DebugLogDescription */,
+				C58D557C2630216600966F5F /* NSArray */,
+				C58D55A22630216600966F5F /* NSObject */,
+				C58D551F2630216600966F5F /* NSString */,
 				C58D54ED2630216600966F5F /* RedefineSys */,
-				C58D54F22630216600966F5F /* UITextView */,
-				C58D54FB2630216600966F5F /* UIDevice */,
+				C58D54952630216600966F5F /* UIButton */,
+				C58D559E2630216600966F5F /* UICollectionReusableView 用作基类 */,
 				C58D55012630216600966F5F /* UICollectionView */,
 				C58D55092630216600966F5F /* UICollectionViewCell */,
+				C58D558B2630216600966F5F /* UICollectionViewFlowLayout */,
+				C58D54AF2630216600966F5F /* UIColor */,
+				C58D55762630216600966F5F /* UIControl */,
+				C58D54FB2630216600966F5F /* UIDevice */,
+				C58D54E72630216600966F5F /* UIFont */,
+				C58D546E2630216600966F5F /* UIImage */,
 				C58D55142630216600966F5F /* UIImageView */,
+				C58D54832630216600966F5F /* UILabel */,
 				C58D551B2630216600966F5F /* UINavigationBar */,
-				C58D551F2630216600966F5F /* NSString */,
-				C58D55232630216600966F5F /* UIViewController */,
 				C58D555F2630216600966F5F /* UINavigationController */,
 				C58D55632630216600966F5F /* UITableView */,
-				C58D55762630216600966F5F /* UIControl */,
-				C58D557C2630216600966F5F /* NSArray */,
+				C58D54882630216600966F5F /* UITableViewCell */,
 				C58D55832630216600966F5F /* UITableViewHeaderFooterView */,
-				C58D558B2630216600966F5F /* UICollectionViewFlowLayout */,
-				C58D55972630216600966F5F /* CALayer */,
-				C58D559E2630216600966F5F /* UICollectionReusableView 用作基类 */,
-				C58D55A22630216600966F5F /* NSObject */,
-				C58D55D22630216600966F5F /* BaseProtocol */,
-				C58D55D62630216600966F5F /* DebugLogDescription */,
 				C58D55D92630216600966F5F /* UITextField */,
+				C58D54F22630216600966F5F /* UITextView */,
+				C58D54B82630216600966F5F /* UIView */,
+				C58D55232630216600966F5F /* UIViewController */,
 			);
 			path = JobsBaseCustomizeUIKitCore;
 			sourceTree = "<group>";
@@ -962,9 +962,9 @@
 			isa = PBXGroup;
 			children = (
 				C58D549F2630216600966F5F /* ButtonTimerDefStructure.h */,
+				C58D54A42630216600966F5F /* UIButton+Timer.h */,
 				C58D54A02630216600966F5F /* UIButton+Timer.m */,
 				C58D54A12630216600966F5F /* ButtonTimerModel */,
-				C58D54A42630216600966F5F /* UIButton+Timer.h */,
 			);
 			path = "UIButton+Timer";
 			sourceTree = "<group>";

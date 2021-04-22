@@ -9,6 +9,12 @@
 #import "BaseNavigationBar.h"
 #import "LoadingImage.h"
 
+#if __has_include(<GKNavigationBar/GKNavigationBar.h>)
+#import <GKNavigationBar/GKNavigationBar.h>
+#else
+#import "GKNavigationBar.h"
+#endif
+
 NS_ASSUME_NONNULL_BEGIN
 // 自定义 BaseNavigationBar
 @interface UIViewController (BaseNavigationBar)
