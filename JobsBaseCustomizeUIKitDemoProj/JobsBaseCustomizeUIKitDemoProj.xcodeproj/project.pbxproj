@@ -166,6 +166,7 @@
 		C58D57D3263022A800966F5F /* WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D57C5263022A800966F5F /* WHToast.m */; };
 		C58D57D4263022A800966F5F /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D57C7263022A800966F5F /* WHToast+DDToast.m */; };
 		C58D57D5263022A800966F5F /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C58D57C8263022A800966F5F /* toastLoading.gif */; };
+		C5EA116A26311EF000155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA116826311EF000155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -492,6 +493,8 @@
 		C58D57C7263022A800966F5F /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
 		C58D57C8263022A800966F5F /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
 		C58D57C9263022A800966F5F /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
+		C5EA116826311EF000155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
+		C5EA116926311EF000155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
 		FD9E9654EE2E7AC7760A8197 /* Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseCustomizeUIKitDemoProjTests/Pods-JobsBaseCustomizeUIKitDemoProjTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -866,6 +869,7 @@
 			isa = PBXGroup;
 			children = (
 				C58D54852630216600966F5F /* UILabel+Extra */,
+				C5EA116726311EF000155822 /* UILabel+Gesture */,
 			);
 			path = "UILabel+Category";
 			sourceTree = "<group>";
@@ -2247,6 +2251,15 @@
 			path = PodsManual;
 			sourceTree = "<group>";
 		};
+		C5EA116726311EF000155822 /* UILabel+Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA116826311EF000155822 /* UILabel+Gesture.m */,
+				C5EA116926311EF000155822 /* UILabel+Gesture.h */,
+			);
+			path = "UILabel+Gesture";
+			sourceTree = "<group>";
+		};
 		F3265D92CC450EBFED086CE5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2549,6 +2562,7 @@
 				C58D563D2630216700966F5F /* BaseNavigationVC.m in Sources */,
 				C58D56052630216600966F5F /* LGiOSBtn.m in Sources */,
 				C58D538C2630206200966F5F /* FileFolderHandleTool.m in Sources */,
+				C5EA116A26311EF000155822 /* UILabel+Gesture.m in Sources */,
 				C58D57D3263022A800966F5F /* WHToast.m in Sources */,
 				C58D56232630216700966F5F /* UICollectionViewCell+Default.m in Sources */,
 				C58D56582630216700966F5F /* NSObject+AFNReachability.m in Sources */,
