@@ -10,6 +10,7 @@
 		7CA5491CFE73D48ED0237872 /* Pods_JobsBaseCustomizeUIKitDemoProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57964E1BA17955F2FA4C3514 /* Pods_JobsBaseCustomizeUIKitDemoProj.framework */; };
 		7DB360D026330008CD709DD5 /* Pods_JobsBaseCustomizeUIKitDemoProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F05474F736A9AB4A289CDD /* Pods_JobsBaseCustomizeUIKitDemoProjTests.framework */; };
 		B004522B719DEB0ACFA76150 /* Pods_JobsBaseCustomizeUIKitDemoProjUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A12C25B1771ACB2F3F28EAF /* Pods_JobsBaseCustomizeUIKitDemoProjUITests.framework */; };
+		C57689802674ADA700379F34 /* DDRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C576897F2674ADA700379F34 /* DDRecord.m */; };
 		C577ADA2263020110097EC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C577ADA1263020110097EC0A /* ViewController.m */; };
 		C577ADA5263020110097EC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C577ADA3263020110097EC0A /* Main.storyboard */; };
 		C577ADA8263020110097EC0A /* JobsBaseCustomizeUIKitDemoProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C577ADA6263020110097EC0A /* JobsBaseCustomizeUIKitDemoProj.xcdatamodeld */; };
@@ -197,6 +198,8 @@
 		743F0E64C82E3FB246BDB171 /* Pods-JobsBaseCustomizeUIKitDemoProjUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseCustomizeUIKitDemoProjUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseCustomizeUIKitDemoProjUITests/Pods-JobsBaseCustomizeUIKitDemoProjUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE449732DD2B716A8AE389B2 /* Pods-JobsBaseCustomizeUIKitDemoProjUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseCustomizeUIKitDemoProjUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseCustomizeUIKitDemoProjUITests/Pods-JobsBaseCustomizeUIKitDemoProjUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD550634143057FE49E7F2A6 /* Pods-JobsBaseCustomizeUIKitDemoProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseCustomizeUIKitDemoProj.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseCustomizeUIKitDemoProj/Pods-JobsBaseCustomizeUIKitDemoProj.debug.xcconfig"; sourceTree = "<group>"; };
+		C576897E2674ADA700379F34 /* DDRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRecord.h; sourceTree = "<group>"; };
+		C576897F2674ADA700379F34 /* DDRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRecord.m; sourceTree = "<group>"; };
 		C577AD97263020110097EC0A /* JobsBaseCustomizeUIKitDemoProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBaseCustomizeUIKitDemoProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577ADA0263020110097EC0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C577ADA1263020110097EC0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -541,6 +544,15 @@
 				4A12C25B1771ACB2F3F28EAF /* Pods_JobsBaseCustomizeUIKitDemoProjUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C576897D2674ADA700379F34 /* DDRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C576897E2674ADA700379F34 /* DDRecord.h */,
+				C576897F2674ADA700379F34 /* DDRecord.m */,
+			);
+			path = DDRecord;
 			sourceTree = "<group>";
 		};
 		C577AD8E263020110097EC0A = {
@@ -1938,6 +1950,7 @@
 		C58D55A22630216600966F5F /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C576897D2674ADA700379F34 /* DDRecord */,
 				C58D55C92630216600966F5F /* NSObject (Time) */,
 				C58D55A32630216600966F5F /* NSObject+Alert */,
 				C58D55CF2630216600966F5F /* NSObject+CallBackInfoByBlock */,
@@ -2635,6 +2648,7 @@
 				C58D56202630216700966F5F /* BaseCollectionView.m in Sources */,
 				C58D53912630206200966F5F /* NSTimerManager.m in Sources */,
 				C58D560B2630216600966F5F /* UIView+Gesture.m in Sources */,
+				C57689802674ADA700379F34 /* DDRecord.m in Sources */,
 				C58D56672630216700966F5F /* JobsMagicTextField.m in Sources */,
 				C58D57D1263022A800966F5F /* WHToastConfig.m in Sources */,
 				C58D560E2630216600966F5F /* UIView+Chain.m in Sources */,
