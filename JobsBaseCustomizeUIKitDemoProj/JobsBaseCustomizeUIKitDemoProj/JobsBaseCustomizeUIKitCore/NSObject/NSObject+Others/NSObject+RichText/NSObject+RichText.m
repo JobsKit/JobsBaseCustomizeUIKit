@@ -54,7 +54,7 @@
     NSUInteger currentFrontLocation = 0;//当前位置（前）
     for (RichTextConfig *config in richTextDataConfigMutArr) {
         config.range = NSMakeRange(currentFrontLocation, config.targetString.length);
-        currentFrontLocation  += config.targetString.length;;
+        currentFrontLocation  += config.targetString.length;
     }
     
     for (RichTextConfig *config in richTextDataConfigMutArr){
@@ -84,6 +84,7 @@
 //        [attrString addAttribute:NSParagraphStyleAttributeName
 //                           value:[NSURL URLWithString:config.urlStr]
 //                           range:config.range];
+        
     }return attrString;
 }
 

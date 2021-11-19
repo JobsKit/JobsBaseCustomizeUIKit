@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSString (Extras)
 
 +(NSString *)test:(NSArray <NSString *>*)arr;
+
+- (BOOL)isNotBlank;
 /**
 *  判断对象 / 数组是否为空
 *  为空返回 YES

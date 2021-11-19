@@ -9,7 +9,7 @@
 
 @implementation NSObject (DataSave)
 
-/// 存数据，储存成功返回地址
+///【对FileFolderHandleTool的二次封装】 存数据，储存成功返回地址
 /// @param data 被储存的数据
 /// @param documentsChildDir 在documents旗下的子文件夹名，也可以不用子文件夹进行管理
 /// @param fileFullname 对应写入的文件带后缀的全民

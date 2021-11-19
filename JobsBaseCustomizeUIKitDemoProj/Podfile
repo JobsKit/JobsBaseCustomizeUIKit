@@ -2,8 +2,8 @@
 # platform :ios, '9.0'
 
 # 下面两行是指明依赖库的来源地址
-source 'https://github.com/CocoaPods/Specs.git'# 使用官方默认地址（默认）
-source 'https://github.com/Artsy/Specs.git'# 使用其他来源地址
+# source 'https://github.com/CocoaPods/Specs.git'# 使用官方默认地址（默认）
+# source 'https://github.com/Artsy/Specs.git'# 使用其他来源地址
 
 # install! 只走一次，多次使用只以最后一个标准执行
 # deterministic_uuids 解决与私有库的冲突

@@ -16,18 +16,18 @@
 - (void)dealloc{
     NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    if ([DDRecord.sharedInstance.recordMutArr containsObject:self.class]) {
-        [DDRecord.sharedInstance.recordMutArr removeObject:self.class];
-    }
+//    if ([DDRecord.sharedInstance.recordMutArr containsObject:self.class]) {
+//        [DDRecord.sharedInstance.recordMutArr removeObject:self.class];
+//    }
 }
 
 - (instancetype)init{
     if (self = [super init]) {
-        if ([DDRecord.sharedInstance.recordMutArr containsObject:self.class]) {
-            return nil;
-        }else{
-            [DDRecord.sharedInstance.recordMutArr addObject:self.class];
-        }
+//        if ([DDRecord.sharedInstance.recordMutArr containsObject:self.class]) {
+//            return nil;
+//        }else{
+//            [DDRecord.sharedInstance.recordMutArr addObject:self.class];
+//        }
     }return self;
 }
 
@@ -71,7 +71,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
 #ifdef DEBUG
-    [self ifEmptyData];
+//    [self ifEmptyDat·a];// 网络异步数据刷新UI会在viewDidAppear以后执行viewWillLayoutSubviews、viewDidLayoutSubviews
 #endif
 }
 

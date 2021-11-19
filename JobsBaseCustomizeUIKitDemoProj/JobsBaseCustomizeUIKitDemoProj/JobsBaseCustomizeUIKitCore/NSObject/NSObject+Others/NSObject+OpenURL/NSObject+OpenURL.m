@@ -66,8 +66,7 @@ completionOpenFailHandler:^{
        options:(NSDictionary<UIApplicationOpenExternalURLOptionsKey, id> *)options
 completionOpenSuccessHandler:(NoResultBlock _Nullable)openSuccessBlock
 completionOpenFailHandler:(NoResultBlock _Nullable)openFailBlock{
-    
-    BOOL canOpen = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:URLStr]];
+    BOOL canOpen = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[URLStr stringByReplacingOccurrencesOfString:@" " withString:@""]]];
     options = options ? options : @{};
     
     if (@available(iOS 10.0, *)) {

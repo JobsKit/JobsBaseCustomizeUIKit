@@ -23,7 +23,7 @@
           withEvent:(UIEvent *)event{
     @weakify(self)
     if (self.collectionReusableViewBlock) {
-        self.collectionReusableViewBlock(weak_self);
+        self.collectionReusableViewBlock(self_weak_);
     }
 }
 /*

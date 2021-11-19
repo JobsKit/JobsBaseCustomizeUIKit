@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_END
  
  +(NSMutableAttributedString *)richText:(NSArray <NSString *>*)arr{
      
-     UIColor *color = [UIColor gradientCorDataMutArr:[NSMutableArray arrayWithArray:@[RGB_COLOR(247, 131, 97),RGB_COLOR(245, 75, 100)]]
+     UIColor *color = [UIColor gradientCorDataMutArr:[NSMutableArray arrayWithArray:@[AppMainCor_07,AppMainCor_08]]
                                           startPoint:CGPointZero
                                             endPoint:CGPointZero
                                               opaque:NO

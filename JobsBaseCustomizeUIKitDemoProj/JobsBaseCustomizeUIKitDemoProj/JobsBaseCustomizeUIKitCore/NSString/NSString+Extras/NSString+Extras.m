@@ -19,6 +19,17 @@
         [resultStr stringByAppendingString:[NSString stringWithFormat:@"/%@",tempStr]];
     }return resultStr;
 }
+
+- (BOOL)isNotBlank {
+    NSCharacterSet *blank = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    for (NSInteger i = 0; i < self.length; ++i) {
+        unichar c = [self characterAtIndex:i];
+        if (![blank characterIsMember:c]) {
+            return YES;
+        }
+    }
+    return NO;
+}
 /**
 *  判断对象 / 数组是否为空
 *  为空返回 YES

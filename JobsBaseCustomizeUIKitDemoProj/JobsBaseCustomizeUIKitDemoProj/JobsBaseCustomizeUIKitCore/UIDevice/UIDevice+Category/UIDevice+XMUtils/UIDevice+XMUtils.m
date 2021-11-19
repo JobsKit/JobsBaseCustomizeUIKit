@@ -38,7 +38,7 @@
     NSString *platform = [self platform];
     
     if (!platform) {
-        return [UIDevice currentDevice].model; // e.g. @"iPhone", @"iPod touch"
+        return UIDevice.currentDevice.model; // e.g. @"iPhone", @"iPod touch"
     }
     
     // iPhone
