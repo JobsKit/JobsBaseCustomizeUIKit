@@ -10,6 +10,13 @@
 #import "TimerManager_DefineStructure.h"
 #import "TimeModel.h"
 #import "NSObject+Time.h"
+#import "AABlock.h"
+
+// RAC_Define
+#import "RACmetamacros.h"
+#import "RACEXTScope.h"
+#import "RACEXTKeyPathCoding.h"
+#import "RACEXTRuntimeExtensions.h"
 
 //此类虽然为工具类，但是不允许用单例，因为timer需要被释放
 

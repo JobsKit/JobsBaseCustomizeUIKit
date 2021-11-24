@@ -16,7 +16,12 @@
 - (void)dealloc{
     NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    
+}
+
+- (instancetype)init{
+    if (self = [super init]) {
+        
+    }return self;
 }
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil
@@ -59,7 +64,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
 #ifdef DEBUG
-    [self ifEmptyData];
+//    [self ifEmptyData];// 网络异步数据刷新UI会在viewDidAppear以后执行viewWillLayoutSubviews、viewDidLayoutSubviews
 #endif
 }
 

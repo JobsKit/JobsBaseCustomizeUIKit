@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef enum : NSUInteger {
     ComingStyle_PUSH = 0,
@@ -19,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 @property(nonatomic,strong)id requestParams;
-@property(nonatomic,strong)UIViewController *rootVC;
+@property(nonatomic,weak)UIViewController *rootVC;
 @property(nonatomic,assign)ComingStyle pushOrPresent;
 
 @end

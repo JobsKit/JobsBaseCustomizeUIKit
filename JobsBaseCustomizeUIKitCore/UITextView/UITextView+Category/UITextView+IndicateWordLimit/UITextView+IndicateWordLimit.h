@@ -14,6 +14,9 @@
 #endif
 
 #import "UIView+Measure.h"
+#import "MacroDef_Cor.h"
+#import "MacroDef_App.h"
+#import "MacroDef_Size.h"
 
 NS_ASSUME_NONNULL_BEGIN
 /// 用于实现右下角的字符数量监控
@@ -42,7 +45,7 @@ NS_ASSUME_NONNULL_END
          _textView.delegate = self;
          _textView.placeholder = @"在这里畅所欲言，留下您的宝贵意见吧！";
          
-         _textView.placeholderTextColor = COLOR_RGB(132, 134, 140);
+         _textView.placeholderTextColor = RGB_COLOR(132, 134, 140);
          _textView.font = [UIFont systemFontOfSize:12 weight:UIFontWeightMedium];
          [self.view addSubview:_textView];
          [_textView mas_makeConstraints:^(MASConstraintMaker *make) {

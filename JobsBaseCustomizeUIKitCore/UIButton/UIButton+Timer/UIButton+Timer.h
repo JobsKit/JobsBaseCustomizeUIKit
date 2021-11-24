@@ -13,6 +13,12 @@
 #import "ButtonTimerDefStructure.h"
 #import "ButtonTimerConfigModel.h"
 
+#if __has_include(<ReactiveObjC/ReactiveObjC.h>)
+#import <ReactiveObjC/ReactiveObjC.h>
+#else
+#import "ReactiveObjC.h"
+#endif
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (Timer)
@@ -36,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)fontDecideSize;// Size自适应【注意：外界不要把Size的宽高写死】
 -(void)sizeDecideFont;// 字体自适应
 
--(instancetype)initWithConfig:(ButtonTimerConfigModel *_Nonnull)config;
+-(instancetype)initWithConfig:(nullable ButtonTimerConfigModel *)config;
 
 @end
 

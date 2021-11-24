@@ -9,8 +9,6 @@
 
 @implementation ZYTextField
 
-@synthesize richLabelDataStringsForPlaceHolderMutArr = _richLabelDataStringsForPlaceHolderMutArr;
-
 -(instancetype)init{
     if (self = [super init]) {
         self.clearButtonMode = UITextFieldViewModeWhileEditing;
@@ -194,7 +192,6 @@
     [animation setRepeatCount:3];
     [lay_lb addAnimation:animation forKey:nil];
 }
-
 #pragma mark —— lazyLoad
 -(UIFont *)ZYtextFont{
     if (!_ZYtextFont) {
@@ -267,31 +264,6 @@
     if (!_ZYTextFieldBorderColor) {
         _ZYTextFieldBorderColor = kBlackColor;
     }return _ZYTextFieldBorderColor;
-}
-
--(NSMutableArray<RichLabelDataStringsModel *> *)richLabelDataStringsForPlaceHolderMutArr{
-    if (!_richLabelDataStringsForPlaceHolderMutArr) {
-        _richLabelDataStringsForPlaceHolderMutArr = NSMutableArray.array;
-        
-        RichLabelFontModel *richLabelFontModel = RichLabelFontModel.new;
-        richLabelFontModel.font = self.ZYtextFont;
-        richLabelFontModel.range = NSMakeRange(0, self.placeholder.length);
-        
-        RichLabelTextCorModel *richLabelTextCorModel = RichLabelTextCorModel.new;
-        richLabelTextCorModel.cor = self.ZYtextColor;
-        richLabelTextCorModel.range = NSMakeRange(0, self.placeholder.length);
-        
-        RichLabelDataStringsModel *richLabelDataStringsModel = RichLabelDataStringsModel.new;
-        richLabelDataStringsModel.dataString = self.placeholder;
-        richLabelDataStringsModel.richLabelFontModel = richLabelFontModel;
-        richLabelDataStringsModel.richLabelTextCorModel = richLabelTextCorModel;
-        
-        [_richLabelDataStringsForPlaceHolderMutArr addObject:richLabelDataStringsModel];
-    }return _richLabelDataStringsForPlaceHolderMutArr;
-}
-
--(void)setRichLabelDataStringsForPlaceHolderMutArr:(NSMutableArray<RichLabelDataStringsModel *> *)richLabelDataStringsForPlaceHolderMutArr{
-    _richLabelDataStringsForPlaceHolderMutArr = richLabelDataStringsForPlaceHolderMutArr;
 }
 
 @end

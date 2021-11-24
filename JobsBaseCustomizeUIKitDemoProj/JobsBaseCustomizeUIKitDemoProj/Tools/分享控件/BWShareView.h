@@ -7,6 +7,13 @@
 //
 
 #import "BaseView.h"
+#import "MacroDef_Func.h"
+
+// RAC_Define
+#import "RACmetamacros.h"
+#import "RACEXTScope.h"
+#import "RACEXTKeyPathCoding.h"
+#import "RACEXTRuntimeExtensions.h"
 
 @class BWItemModel;
 

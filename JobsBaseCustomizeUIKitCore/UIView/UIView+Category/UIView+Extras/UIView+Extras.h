@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+Measure.h"
+#import "MacroDef_App.h"
+#import "MacroDef_Size.h"
+#import "MacroDef_Cor.h"
 
 typedef enum : NSUInteger {
     ShadowDirection_top = 0,
@@ -91,5 +94,7 @@ typedef NS_OPTIONS(NSUInteger, UIBorderSideType) {
               shadowOpacity:(CGFloat)shadowOpacity
            layerShadowColor:(UIColor *__nullable)layerShadowColor
           layerShadowRadius:(CGFloat)layerShadowRadius;
+/// 监听键盘事件
+-(void)monitorKeyboardAction;
 
 @end

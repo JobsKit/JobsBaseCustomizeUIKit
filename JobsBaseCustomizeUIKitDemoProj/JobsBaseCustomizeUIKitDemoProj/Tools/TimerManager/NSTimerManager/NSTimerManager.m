@@ -239,7 +239,7 @@
 -(id)target{
     @weakify(self)
     if (!_target) {
-        _target = weak_self;
+        _target = self_weak_;
     }return _target;
 }
 

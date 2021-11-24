@@ -7,6 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
+// RAC_Define
+#import "RACmetamacros.h"
+#import "RACEXTScope.h"
+#import "RACEXTKeyPathCoding.h"
+#import "RACEXTRuntimeExtensions.h"
+
 typedef NS_ENUM(NSInteger, DispatchTimerState) {
     DispatchTimerState_init = 0,
     DispatchTimerState_resume,

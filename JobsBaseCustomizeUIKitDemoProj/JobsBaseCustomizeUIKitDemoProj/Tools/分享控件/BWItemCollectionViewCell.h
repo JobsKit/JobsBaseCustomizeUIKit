@@ -8,6 +8,7 @@
 
 #import "BaseCollectionViewCell.h"
 #import "LoadingImage.h"
+#import "MacroDef_App.h"
 
 @class BWItemModel;
 
