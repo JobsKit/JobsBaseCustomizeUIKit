@@ -16,12 +16,14 @@
 
 @implementation JobsMagicTextField
 
+static dispatch_once_t dispatchOnce;
 -(void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (instancetype)init{
     if (self = [super init]) {
+        dispatchOnce = 0;
         self.placeholdAnimationable = YES;
         self.clipsToBounds = NO;
         [[NSNotificationCenter defaultCenter] addObserver:self
@@ -33,11 +35,9 @@
 
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    static dispatch_once_t dispatchOnce;
     dispatch_once(&dispatchOnce, ^{
         self.placeholderAnimationLbl.alpha = 1;
     });
-
 }
 
 -(void)changeEditing{
