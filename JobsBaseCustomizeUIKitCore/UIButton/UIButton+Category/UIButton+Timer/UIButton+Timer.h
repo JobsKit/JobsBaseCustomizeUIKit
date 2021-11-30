@@ -13,6 +13,7 @@
 #import "ButtonTimerDefStructure.h"
 #import "ButtonTimerConfigModel.h"
 #import "MacroDef_Func.h"
+#import "NSObject+Extras.h"
 
 #if __has_include(<ReactiveObjC/ReactiveObjC.h>)
 #import <ReactiveObjC/ReactiveObjC.h>

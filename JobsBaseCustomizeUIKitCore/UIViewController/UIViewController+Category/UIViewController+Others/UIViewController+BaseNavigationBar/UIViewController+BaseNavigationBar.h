@@ -12,6 +12,8 @@
 #import "MacroDef_Size.h"
 #import "LoadingImage.h"
 
+#import "UIViewController+BaseVC.h"
+
 #if __has_include(<Masonry/Masonry.h>)
 #import <Masonry/Masonry.h>
 #else
