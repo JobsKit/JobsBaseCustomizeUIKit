@@ -14,7 +14,7 @@
 #import "MJExtension.h"
 #endif
 
-#import "NSString+Extras.h"
+#import "NSStringExtras.h"
 
 NS_ASSUME_NONNULL_BEGIN
 /// 本类只管理NSUserDefault数据的存储

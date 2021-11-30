@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <Photos/Photos.h>
-#import "NSString+Extras.h"
+#import "NSStringExtras.h"
 #import "UIImage+Extras.h"
 #import "TimeModel.h"
 #import "AABlock.h"
