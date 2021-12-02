@@ -12,6 +12,17 @@
 #import "BaseViewControllerProtocol.h"
 #import "BaseCellProtocol.h"
 #import "BaseViewProtocol.h"
+#import "BaseTableViewHeaderFooterViewProtocol.h"
+#import "BaseButtonProtocol.h"
+
+#pragma mark —— NSUserDefaults
+#import "NSUserDefaults+Manager.h"
+
+#pragma mark —— UIViewModel
+#import "UIViewModel.h"
+
+#pragma mark —— NSBundle
+#import "NSBundle+CLLanguage.h"
 
 #pragma mark —— CALayer
 /// CALayer+Transition
@@ -39,6 +50,8 @@
 #import "NSObject+RichText.h"
 #import "NSObject+Shake.h"
 #import "NSObject+Sound.h"
+#import "NSObject+NTESVerifyCode.h"//网易云盾
+#import "NSObject+WHToast.h"//提示
 ///【对FileFolderHandleTool的二次封装】 存数据，储存成功返回地址
 #import "NSObject+DataSave.h"
 /// 时间相关方法
@@ -53,12 +66,12 @@
 #import "NSObject+DataBinding.h"
 
 #pragma mark —— NSString
+#import "NSString+FilteringSpecialCharacters.h"// 特殊字符集
 #import "NSStringExtras.h"
 
 #pragma mark —— RedefineSys
 #import "DeleteSystemUITabBarButton.h"
 
-#pragma mark —— UIButton
 #pragma mark —— UIButton
 /// UIButton+Category
 /// 计时按钮
@@ -74,7 +87,6 @@
 #import "SoundBtn.h"
 /// 高仿iOS长按删除+抖动
 #import "LGiOSBtn.h"
-
 
 #pragma mark —— UICollectionReusableView 用作基类
 #import "BaseCollectionReusableView.h"
@@ -155,6 +167,7 @@
 
 #pragma mark —— UITableViewCell
 /// UITableViewCell+Category
+#import "UITableViewCell+BaseCellProtocol.h"
 // 重设边距
 #import "UITableViewCell+Margin.h"
 // 自定义右侧小箭头图标
@@ -164,8 +177,10 @@
 
 #pragma mark —— UITableViewHeaderFooterView
 /// BaseTableViewHeaderFooterView
-#import "TableViewFooterView.h"
-#import "TableViewHeaderView.h"
+#import "BaseTableViewFooterView.h"
+#import "BaseTableViewHeaderView.h"
+/// UITableViewHeaderFooterView+Category
+#import "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h"
 
 #pragma mark —— UITextField
 /// BaseTextField

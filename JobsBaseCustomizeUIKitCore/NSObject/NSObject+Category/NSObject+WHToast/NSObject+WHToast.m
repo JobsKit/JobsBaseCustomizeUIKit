@@ -1,16 +1,15 @@
 //
-//  WHToast+DDToast.m
-//  DouDong-II
+//  NSObject+WHToast.m
+//  Casino
 //
-//  Created by Jobs on 2021/1/10.
+//  Created by Jobs on 2021/12/2.
 //
 
-#import "WHToast+DDToast.h"
+#import "NSObject+WHToast.h"
 
-@implementation WHToast (DDToast)
+@implementation NSObject (WHToast)
 /** 仅文字，展示在屏幕中间 */
 +(void)toastMsg:(NSString *)msg{
-    [WHToast setCornerRadius:20];
     [WHToast showMessage:msg
                 duration:1.5
            finishHandler:nil];
@@ -48,10 +47,10 @@
 }
 /** 当前进度 */
 +(void)loadSchedule:(CGFloat)Schedule{
-    dispatch_async(dispatch_get_main_queue(), ^{
-       // UI更新代码
-        WHToast.sharedInstance.toastView.messageLabel.text = [NSString stringWithFormat:@"当前进度：%.2f",Schedule];
-    });
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//       // UI更新代码
+//        WHToast.sharedInstance.toastView.messageLabel.text = [NSString stringWithFormat:@"当前进度：%.2f",Schedule];
+//    });
 }
 
 @end

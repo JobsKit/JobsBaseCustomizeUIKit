@@ -17,6 +17,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 def func
+  pod 'NTESVerifyCode' # 网易验证码 https://github.com/yidun/NTESVerifyCode https://support.dun.163.com/documents/15588062143475712?docId=150442931089756160
   pod 'JobsGlobleDef'
   pod 'DoraemonKit' # https://github.com/didi/DoraemonKit 滴滴打车出的工具
 #  pod 'FBRetainCycleDetector' # https://github.com/facebook/FBRetainCycleDetector
