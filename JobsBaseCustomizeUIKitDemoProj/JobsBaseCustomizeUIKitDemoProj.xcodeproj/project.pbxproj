@@ -10,6 +10,12 @@
 		74F4B57087262A6959D3BDA2 /* Pods_JobsBaseCustomizeUIKitDemoProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ECBE2943D55CA4B2F89B84 /* Pods_JobsBaseCustomizeUIKitDemoProjTests.framework */; };
 		7CA5491CFE73D48ED0237872 /* Pods_JobsBaseCustomizeUIKitDemoProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57964E1BA17955F2FA4C3514 /* Pods_JobsBaseCustomizeUIKitDemoProj.framework */; };
 		84037B7E274CC26D00D9079E /* RACEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84037B78274CC26C00D9079E /* RACEXTRuntimeExtensions.m */; };
+		8405F20E2758893200A9682A /* NSObject+AppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F2082758893200A9682A /* NSObject+AppTools.m */; };
+		8405F20F2758893200A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md in Resources */ = {isa = PBXBuildFile; fileRef = 8405F20A2758893200A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */; };
+		8405F2102758893200A9682A /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F20D2758893200A9682A /* NSObject+UserInfo.m */; };
+		8405F7BD27588C0D00A9682A /* DDResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7B427588C0D00A9682A /* DDResponseModel.m */; };
+		8405F7BE27588C0D00A9682A /* DDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7B827588C0D00A9682A /* DDUserModel.m */; };
+		8405F7BF27588C0D00A9682A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7BB27588C0D00A9682A /* BaseModel.m */; };
 		84407D592754A7A100B9926E /* UIButton+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 84407D3B2754A7A000B9926E /* UIButton+UI.m */; };
 		84407D5A2754A7A100B9926E /* 高度自定义的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = 84407D3F2754A7A000B9926E /* 高度自定义的按钮.md */; };
 		84407D5B2754A7A100B9926E /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 84407D402754A7A000B9926E /* UIButton+ImageTitleSpacing.m */; };
@@ -25,6 +31,9 @@
 		84407D652754A7A100B9926E /* 带有按键音的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = 84407D562754A7A100B9926E /* 带有按键音的按钮.md */; };
 		84407D662754A7A100B9926E /* SoundBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 84407D572754A7A100B9926E /* SoundBtn.m */; };
 		844E520C27550A6A00A6EA94 /* UIViewController+Lottie.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E520A27550A6A00A6EA94 /* UIViewController+Lottie.m */; };
+		84784FA12757A1D80066CAD1 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 84784FA02757A1D70066CAD1 /* NSString+Path.m */; };
+		84786074275886E90066CAD1 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84786070275886E90066CAD1 /* UserDefaultModel.m */; };
+		84786075275886E90066CAD1 /* NSUserDefaults+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84786073275886E90066CAD1 /* NSUserDefaults+Manager.m */; };
 		84B3A5DF274D0F020005DF73 /* UIImage+ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A445274D0F010005DF73 /* UIImage+ScreenShot.m */; };
 		84B3A5E0274D0F020005DF73 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A448274D0F010005DF73 /* UIImage+Extras.m */; };
 		84B3A5E1274D0F020005DF73 /* UIImage+SYS.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A44C274D0F010005DF73 /* UIImage+SYS.m */; };
@@ -169,8 +178,6 @@
 		C58D538B2630206200966F5F /* 分享控件的用法.md in Resources */ = {isa = PBXBuildFile; fileRef = C58D53672630206200966F5F /* 分享控件的用法.md */; };
 		C58D538C2630206200966F5F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D536B2630206200966F5F /* FileFolderHandleTool.m */; };
 		C58D538D2630206200966F5F /* CustomZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D536D2630206200966F5F /* CustomZFPlayerControlView.m */; };
-		C58D538E2630206200966F5F /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D53722630206200966F5F /* UserDefaultModel.m */; };
-		C58D538F2630206200966F5F /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D53732630206200966F5F /* UserDefaultManager.m */; };
 		C58D53902630206200966F5F /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D53772630206200966F5F /* DispatchTimerManager.m */; };
 		C58D53912630206200966F5F /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D537B2630206200966F5F /* NSTimerManager.m */; };
 		C58D53922630206200966F5F /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D537E2630206200966F5F /* Nanosecond_TimerManager.m */; };
@@ -221,6 +228,18 @@
 		84037B7B274CC26D00D9079E /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		84037B7C274CC26D00D9079E /* RAC_Define.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = RAC_Define.md; sourceTree = "<group>"; };
 		84037B7D274CC26D00D9079E /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		8405F2082758893200A9682A /* NSObject+AppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppTools.m"; sourceTree = "<group>"; };
+		8405F2092758893200A9682A /* NSObject+AppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppTools.h"; sourceTree = "<group>"; };
+		8405F20A2758893200A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md"; sourceTree = "<group>"; };
+		8405F20C2758893200A9682A /* NSObject+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserInfo.h"; sourceTree = "<group>"; };
+		8405F20D2758893200A9682A /* NSObject+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserInfo.m"; sourceTree = "<group>"; };
+		8405F7B427588C0D00A9682A /* DDResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDResponseModel.m; sourceTree = "<group>"; };
+		8405F7B527588C0D00A9682A /* DDResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDResponseModel.h; sourceTree = "<group>"; };
+		8405F7B627588C0D00A9682A /* UBallLiveModelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBallLiveModelHeader.h; sourceTree = "<group>"; };
+		8405F7B827588C0D00A9682A /* DDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserModel.m; sourceTree = "<group>"; };
+		8405F7B927588C0D00A9682A /* DDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserModel.h; sourceTree = "<group>"; };
+		8405F7BB27588C0D00A9682A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		8405F7BC27588C0D00A9682A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		84407D3B2754A7A000B9926E /* UIButton+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UI.m"; sourceTree = "<group>"; };
 		84407D3C2754A7A000B9926E /* UIButton+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UI.h"; sourceTree = "<group>"; };
 		84407D3E2754A7A000B9926E /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -246,6 +265,12 @@
 		84407D582754A7A100B9926E /* SoundBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBtn.h; sourceTree = "<group>"; };
 		844E520A27550A6A00A6EA94 /* UIViewController+Lottie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Lottie.m"; sourceTree = "<group>"; };
 		844E520B27550A6A00A6EA94 /* UIViewController+Lottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Lottie.h"; sourceTree = "<group>"; };
+		84784F9F2757A1D70066CAD1 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		84784FA02757A1D70066CAD1 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		8478606F275886E90066CAD1 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
+		84786070275886E90066CAD1 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
+		84786072275886E90066CAD1 /* NSUserDefaults+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Manager.h"; sourceTree = "<group>"; };
+		84786073275886E90066CAD1 /* NSUserDefaults+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Manager.m"; sourceTree = "<group>"; };
 		8499C1652747CC760050BF1E /* PodsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsHeader.h; sourceTree = "<group>"; };
 		8499C1662747CC7F0050BF1E /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		84B3A442274D0F010005DF73 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
@@ -535,10 +560,6 @@
 		C58D536B2630206200966F5F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C58D536D2630206200966F5F /* CustomZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomZFPlayerControlView.m; sourceTree = "<group>"; };
 		C58D536E2630206200966F5F /* CustomZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomZFPlayerControlView.h; sourceTree = "<group>"; };
-		C58D53702630206200966F5F /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
-		C58D53712630206200966F5F /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
-		C58D53722630206200966F5F /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
-		C58D53732630206200966F5F /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
 		C58D53762630206200966F5F /* DispatchTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimerManager.h; sourceTree = "<group>"; };
 		C58D53772630206200966F5F /* DispatchTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerManager.m; sourceTree = "<group>"; };
 		C58D53782630206200966F5F /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
@@ -617,6 +638,72 @@
 				84037B7A274CC26D00D9079E /* RACmetamacros.h */,
 			);
 			path = RAC_Define;
+			sourceTree = "<group>";
+		};
+		8405F2062758893200A9682A /* AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				8405F2072758893200A9682A /* NSObject+AppTools */,
+				8405F20B2758893200A9682A /* NSObject+UserInfo */,
+			);
+			path = AppTools;
+			sourceTree = "<group>";
+		};
+		8405F2072758893200A9682A /* NSObject+AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				8405F20A2758893200A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */,
+				8405F2092758893200A9682A /* NSObject+AppTools.h */,
+				8405F2082758893200A9682A /* NSObject+AppTools.m */,
+			);
+			path = "NSObject+AppTools";
+			sourceTree = "<group>";
+		};
+		8405F20B2758893200A9682A /* NSObject+UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8405F20C2758893200A9682A /* NSObject+UserInfo.h */,
+				8405F20D2758893200A9682A /* NSObject+UserInfo.m */,
+			);
+			path = "NSObject+UserInfo";
+			sourceTree = "<group>";
+		};
+		8405F7B227588C0D00A9682A /* 🇨🇳数据模型层(此文件夹存放全局的所有Model) */ = {
+			isa = PBXGroup;
+			children = (
+				8405F7B627588C0D00A9682A /* UBallLiveModelHeader.h */,
+				8405F7BA27588C0D00A9682A /* BaseModel */,
+				8405F7B327588C0D00A9682A /* DDResponseModel */,
+				8405F7B727588C0D00A9682A /* DDUserModel */,
+			);
+			path = "🇨🇳数据模型层(此文件夹存放全局的所有Model)";
+			sourceTree = "<group>";
+		};
+		8405F7B327588C0D00A9682A /* DDResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				8405F7B427588C0D00A9682A /* DDResponseModel.m */,
+				8405F7B527588C0D00A9682A /* DDResponseModel.h */,
+			);
+			path = DDResponseModel;
+			sourceTree = "<group>";
+		};
+		8405F7B727588C0D00A9682A /* DDUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				8405F7B827588C0D00A9682A /* DDUserModel.m */,
+				8405F7B927588C0D00A9682A /* DDUserModel.h */,
+			);
+			path = DDUserModel;
+			sourceTree = "<group>";
+		};
+		8405F7BA27588C0D00A9682A /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				8405F7BB27588C0D00A9682A /* BaseModel.m */,
+				8405F7BC27588C0D00A9682A /* BaseModel.h */,
+			);
+			path = BaseModel;
 			sourceTree = "<group>";
 		};
 		842F7082274E209B000E2DAE /* NSObject+Category */ = {
@@ -737,6 +824,42 @@
 			path = "UIViewController+Lottie";
 			sourceTree = "<group>";
 		};
+		84784F9E2757A1D70066CAD1 /* NSString+Path */ = {
+			isa = PBXGroup;
+			children = (
+				84784F9F2757A1D70066CAD1 /* NSString+Path.h */,
+				84784FA02757A1D70066CAD1 /* NSString+Path.m */,
+			);
+			path = "NSString+Path";
+			sourceTree = "<group>";
+		};
+		8478606D275886E90066CAD1 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8478606E275886E90066CAD1 /* UserDefaultModel */,
+				84786071275886E90066CAD1 /* NSUserDefaults+Manager */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		8478606E275886E90066CAD1 /* UserDefaultModel */ = {
+			isa = PBXGroup;
+			children = (
+				8478606F275886E90066CAD1 /* UserDefaultModel.h */,
+				84786070275886E90066CAD1 /* UserDefaultModel.m */,
+			);
+			path = UserDefaultModel;
+			sourceTree = "<group>";
+		};
+		84786071275886E90066CAD1 /* NSUserDefaults+Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84786072275886E90066CAD1 /* NSUserDefaults+Manager.h */,
+				84786073275886E90066CAD1 /* NSUserDefaults+Manager.m */,
+			);
+			path = "NSUserDefaults+Manager";
+			sourceTree = "<group>";
+		};
 		8499C1642747CC690050BF1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -749,6 +872,7 @@
 		84B3A440274D0F010005DF73 /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
+				8478606D275886E90066CAD1 /* NSUserDefaults */,
 				84B3A441274D0F010005DF73 /* UIImage */,
 				84B3A456274D0F010005DF73 /* UILabel */,
 				84B3A45E274D0F010005DF73 /* UITableViewCell */,
@@ -2207,15 +2331,16 @@
 			isa = PBXGroup;
 			children = (
 				84E6D5D7275657B4002BB16E /* NSString+Conversion */,
-				84E6D5DA275657B4002BB16E /* NSString+Others */,
-				84E6D5DD275657B4002BB16E /* NSString+Eomji */,
-				84E6D5E0275657B4002BB16E /* NSString+JudgeNull */,
-				84E6D5E3275657B4002BB16E /* NSString+Statistics */,
 				84E6D5E6275657B4002BB16E /* NSString+Decoration */,
-				84E6D5E9275657B4002BB16E /* NSStringExtras.h */,
-				84E6D5EA275657B4002BB16E /* NSString+Judgment */,
+				84E6D5DD275657B4002BB16E /* NSString+Eomji */,
 				84E6D5ED275657B4002BB16E /* NSString+FilteringSpecialCharacters */,
+				84E6D5E0275657B4002BB16E /* NSString+JudgeNull */,
+				84E6D5EA275657B4002BB16E /* NSString+Judgment */,
+				84E6D5DA275657B4002BB16E /* NSString+Others */,
+				84784F9E2757A1D70066CAD1 /* NSString+Path */,
 				84E6D5F0275657B4002BB16E /* NSString+Replace */,
+				84E6D5E3275657B4002BB16E /* NSString+Statistics */,
+				84E6D5E9275657B4002BB16E /* NSStringExtras.h */,
 			);
 			path = "NSString+Category";
 			sourceTree = "<group>";
@@ -2389,12 +2514,13 @@
 		C58D53602630206200966F5F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				8405F7B227588C0D00A9682A /* 🇨🇳数据模型层(此文件夹存放全局的所有Model) */,
+				8405F2062758893200A9682A /* AppTools */,
 				84B3A72F274D162C0005DF73 /* CLLanguageManager */,
 				C58D536C2630206200966F5F /* 播放器控制层 */,
 				C58D53612630206200966F5F /* 分享控件 */,
 				C58D53692630206200966F5F /* 文件夹操作 */,
 				C58D53742630206200966F5F /* TimerManager */,
-				C58D536F2630206200966F5F /* UserDefaultManager */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -2429,17 +2555,6 @@
 				C58D536E2630206200966F5F /* CustomZFPlayerControlView.h */,
 			);
 			path = "播放器控制层";
-			sourceTree = "<group>";
-		};
-		C58D536F2630206200966F5F /* UserDefaultManager */ = {
-			isa = PBXGroup;
-			children = (
-				C58D53702630206200966F5F /* UserDefaultManager.h */,
-				C58D53712630206200966F5F /* UserDefaultModel.h */,
-				C58D53722630206200966F5F /* UserDefaultModel.m */,
-				C58D53732630206200966F5F /* UserDefaultManager.m */,
-			);
-			path = UserDefaultManager;
 			sourceTree = "<group>";
 		};
 		C58D53742630206200966F5F /* TimerManager */ = {
@@ -2680,6 +2795,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8405F20F2758893200A9682A /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md in Resources */,
 				C58D57CF263022A800966F5F /* whtoast_error@3x.png in Resources */,
 				84407D5E2754A7A100B9926E /* RBCLikeButton.bundle in Resources */,
 				C58D57CA263022A800966F5F /* whtoast_success.png in Resources */,
@@ -2852,9 +2968,11 @@
 				84B3A647274D0F020005DF73 /* CALayer+Transition.m in Sources */,
 				84B3A619274D0F020005DF73 /* UICollectionViewCell+Default.m in Sources */,
 				84B3A5E7274D0F020005DF73 /* UITableViewCell+BaseCellProtocol.m in Sources */,
+				8405F2102758893200A9682A /* NSObject+UserInfo.m in Sources */,
 				84407D662754A7A100B9926E /* SoundBtn.m in Sources */,
 				C577ADB0263020120097EC0A /* main.m in Sources */,
 				84B3A5EC274D0F020005DF73 /* BaseTableViewCell.m in Sources */,
+				8405F7BE27588C0D00A9682A /* DDUserModel.m in Sources */,
 				84B3A64C274D0F020005DF73 /* NSObject+OpenURL.m in Sources */,
 				84B3A655274D0F020005DF73 /* NSObject+Time.m in Sources */,
 				84E6D5F3275657B5002BB16E /* NSString+Conversion.m in Sources */,
@@ -2884,12 +3002,14 @@
 				84E6D5FA275657B5002BB16E /* NSString+FilteringSpecialCharacters.m in Sources */,
 				84E6D5F4275657B5002BB16E /* NSString+Others.m in Sources */,
 				84B3A634274D0F020005DF73 /* UINavigationController+SafeTransition.m in Sources */,
-				C58D538F2630206200966F5F /* UserDefaultManager.m in Sources */,
 				84B3A61A274D0F020005DF73 /* BaseCollectionViewCell.m in Sources */,
 				84B3A5E3274D0F020005DF73 /* UIImage+Tailor.m in Sources */,
+				8405F7BD27588C0D00A9682A /* DDResponseModel.m in Sources */,
 				84B3A637274D0F020005DF73 /* UITableView+XSAnimationKit.m in Sources */,
 				84B3A61C274D0F020005DF73 /* UIImageView+GIF.m in Sources */,
+				8405F20E2758893200A9682A /* NSObject+AppTools.m in Sources */,
 				C577ADA2263020110097EC0A /* ViewController.m in Sources */,
+				84784FA12757A1D80066CAD1 /* NSString+Path.m in Sources */,
 				84B3A654274D0F020005DF73 /* NSObject+DataSave.m in Sources */,
 				C577ADA8263020110097EC0A /* JobsBaseCustomizeUIKitDemoProj.xcdatamodeld in Sources */,
 				C58D53932630206200966F5F /* CADisplayLink_TimerManager.m in Sources */,
@@ -2908,7 +3028,9 @@
 				C58D53922630206200966F5F /* Nanosecond_TimerManager.m in Sources */,
 				84B3A5FE274D0F020005DF73 /* BaseView.m in Sources */,
 				84B3A632274D0F020005DF73 /* BaseViewController.m in Sources */,
+				84786074275886E90066CAD1 /* UserDefaultModel.m in Sources */,
 				84B3A610274D0F020005DF73 /* UITextView+Extend.m in Sources */,
+				8405F7BF27588C0D00A9682A /* BaseModel.m in Sources */,
 				84B3A62A274D0F020005DF73 /* UIViewController+GifImageView.m in Sources */,
 				84B3A606274D0F020005DF73 /* UIView+BackgroundImage.m in Sources */,
 				84B3A614274D0F020005DF73 /* UIDevice+XMUtils.m in Sources */,
@@ -2919,6 +3041,7 @@
 				84B3A608274D0F020005DF73 /* UIView+JHGestureBlock.m in Sources */,
 				C58D53872630206200966F5F /* AppDelegate.m in Sources */,
 				84B3A64D274D0F020005DF73 /* NSObject+Measure.m in Sources */,
+				84786075275886E90066CAD1 /* NSUserDefaults+Manager.m in Sources */,
 				84B3A60E274D0F020005DF73 /* DeleteSystemUITabBarButton.m in Sources */,
 				84B3A5E4274D0F020005DF73 /* UIImage+Overlay.m in Sources */,
 				84B3A5E2274D0F020005DF73 /* UIImage+YBGIF.m in Sources */,
@@ -2931,7 +3054,6 @@
 				C58D538A2630206200966F5F /* BWItemCollectionViewCell.m in Sources */,
 				84B3A65F274D0F020005DF73 /* ZYTextField.m in Sources */,
 				84B3A62E274D0F020005DF73 /* LOTAnimationMJRefreshHeader.m in Sources */,
-				C58D538E2630206200966F5F /* UserDefaultModel.m in Sources */,
 				84B3A640274D0F020005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m in Sources */,
 				84407D5D2754A7A100B9926E /* ButtonTimerConfigModel.m in Sources */,
 				84B3A61B274D0F020005DF73 /* BaseImageView.m in Sources */,
