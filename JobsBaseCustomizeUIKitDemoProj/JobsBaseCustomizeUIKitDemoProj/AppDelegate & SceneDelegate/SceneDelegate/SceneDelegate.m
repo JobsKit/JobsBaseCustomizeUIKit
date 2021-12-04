@@ -8,12 +8,18 @@
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
 
+SceneDelegate *sceneDelegate;
 @interface SceneDelegate ()
 
 @end
 
 @implementation SceneDelegate
 
+-(instancetype)init{
+    if (self = [super init]) {
+        sceneDelegate = self;
+    }return self;
+}
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
