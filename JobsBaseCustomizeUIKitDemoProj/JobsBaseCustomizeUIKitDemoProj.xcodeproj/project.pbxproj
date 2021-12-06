@@ -23,6 +23,11 @@
 		8405F7BD27588C0D00A9682A /* DDResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7B427588C0D00A9682A /* DDResponseModel.m */; };
 		8405F7BE27588C0D00A9682A /* DDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7B827588C0D00A9682A /* DDUserModel.m */; };
 		8405F7BF27588C0D00A9682A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405F7BB27588C0D00A9682A /* BaseModel.m */; };
+		843B382A275E4CBD00B6077B /* UIView+BackgroundLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3829275E4CBD00B6077B /* UIView+BackgroundLabel.m */; };
+		843B38B1275E4E7E00B6077B /* BaseTableViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B38A6275E4E7D00B6077B /* BaseTableViewFooterView.m */; };
+		843B38B2275E4E7E00B6077B /* BaseTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B38A8275E4E7D00B6077B /* BaseTableViewHeaderView.m */; };
+		843B38B3275E4E7E00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B38AD275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */; };
+		843B38B4275E4E7E00B6077B /* UITableViewHeaderFooterView+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B38AF275E4E7D00B6077B /* UITableViewHeaderFooterView+Attribute.m */; };
 		84407D592754A7A100B9926E /* UIButton+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 84407D3B2754A7A000B9926E /* UIButton+UI.m */; };
 		84407D5A2754A7A100B9926E /* 高度自定义的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = 84407D3F2754A7A000B9926E /* 高度自定义的按钮.md */; };
 		84407D5B2754A7A100B9926E /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 84407D402754A7A000B9926E /* UIButton+ImageTitleSpacing.m */; };
@@ -155,9 +160,6 @@
 		84B3A63D274D0F020005DF73 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md in Resources */ = {isa = PBXBuildFile; fileRef = 84B3A561274D0F010005DF73 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */; };
 		84B3A63E274D0F020005DF73 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A564274D0F010005DF73 /* NSArray+Extension.m */; };
 		84B3A63F274D0F020005DF73 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A568274D0F010005DF73 /* NSArray+Extend.m */; };
-		84B3A640274D0F020005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A56C274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */; };
-		84B3A641274D0F020005DF73 /* BaseTableViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A570274D0F010005DF73 /* BaseTableViewFooterView.m */; };
-		84B3A642274D0F020005DF73 /* BaseTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A572274D0F010005DF73 /* BaseTableViewHeaderView.m */; };
 		84B3A643274D0F020005DF73 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A578274D0F010005DF73 /* LMHWaterFallLayout.m */; };
 		84B3A644274D0F020005DF73 /* KFZShopCatoryFlowLayput.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A57B274D0F010005DF73 /* KFZShopCatoryFlowLayput.m */; };
 		84B3A645274D0F020005DF73 /* HQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A57D274D0F010005DF73 /* HQCollectionViewFlowLayout.m */; };
@@ -265,6 +267,16 @@
 		8405F7B927588C0D00A9682A /* DDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserModel.h; sourceTree = "<group>"; };
 		8405F7BB27588C0D00A9682A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		8405F7BC27588C0D00A9682A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		843B3828275E4CBD00B6077B /* UIView+BackgroundLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundLabel.h"; sourceTree = "<group>"; };
+		843B3829275E4CBD00B6077B /* UIView+BackgroundLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundLabel.m"; sourceTree = "<group>"; };
+		843B38A5275E4E7D00B6077B /* BaseTableViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewFooterView.h; sourceTree = "<group>"; };
+		843B38A6275E4E7D00B6077B /* BaseTableViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewFooterView.m; sourceTree = "<group>"; };
+		843B38A8275E4E7D00B6077B /* BaseTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewHeaderView.m; sourceTree = "<group>"; };
+		843B38A9275E4E7D00B6077B /* BaseTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewHeaderView.h; sourceTree = "<group>"; };
+		843B38AC275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h"; sourceTree = "<group>"; };
+		843B38AD275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m"; sourceTree = "<group>"; };
+		843B38AF275E4E7D00B6077B /* UITableViewHeaderFooterView+Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+Attribute.m"; sourceTree = "<group>"; };
+		843B38B0275E4E7E00B6077B /* UITableViewHeaderFooterView+Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+Attribute.h"; sourceTree = "<group>"; };
 		84407D3B2754A7A000B9926E /* UIButton+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UI.m"; sourceTree = "<group>"; };
 		84407D3C2754A7A000B9926E /* UIButton+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UI.h"; sourceTree = "<group>"; };
 		84407D3E2754A7A000B9926E /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -517,12 +529,6 @@
 		84B3A565274D0F010005DF73 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		84B3A567274D0F010005DF73 /* NSArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extend.h"; sourceTree = "<group>"; };
 		84B3A568274D0F010005DF73 /* NSArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
-		84B3A56B274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h"; sourceTree = "<group>"; };
-		84B3A56C274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m"; sourceTree = "<group>"; };
-		84B3A56F274D0F010005DF73 /* BaseTableViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewFooterView.h; sourceTree = "<group>"; };
-		84B3A570274D0F010005DF73 /* BaseTableViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewFooterView.m; sourceTree = "<group>"; };
-		84B3A572274D0F010005DF73 /* BaseTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewHeaderView.m; sourceTree = "<group>"; };
-		84B3A573274D0F010005DF73 /* BaseTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewHeaderView.h; sourceTree = "<group>"; };
 		84B3A577274D0F010005DF73 /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHWaterFallLayout.h; sourceTree = "<group>"; };
 		84B3A578274D0F010005DF73 /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHWaterFallLayout.m; sourceTree = "<group>"; };
 		84B3A57A274D0F010005DF73 /* KFZShopCatoryFlowLayput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFZShopCatoryFlowLayput.h; sourceTree = "<group>"; };
@@ -808,6 +814,70 @@
 				8405F7BC27588C0D00A9682A /* BaseModel.h */,
 			);
 			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		843B3827275E4CBD00B6077B /* UIView+BackgroundLabel */ = {
+			isa = PBXGroup;
+			children = (
+				843B3828275E4CBD00B6077B /* UIView+BackgroundLabel.h */,
+				843B3829275E4CBD00B6077B /* UIView+BackgroundLabel.m */,
+			);
+			path = "UIView+BackgroundLabel";
+			sourceTree = "<group>";
+		};
+		843B38A3275E4E7D00B6077B /* BaseTableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				843B38A4275E4E7D00B6077B /* BaseTableViewFooterView */,
+				843B38A7275E4E7D00B6077B /* BaseTableViewHeaderView */,
+			);
+			name = BaseTableViewHeaderFooterView;
+			path = "../../../../公司代码/MyCasino/Casino/3rd/JobsBaseCustomizeUIKitCore/UITableViewHeaderFooterView/BaseTableViewHeaderFooterView";
+			sourceTree = "<group>";
+		};
+		843B38A4275E4E7D00B6077B /* BaseTableViewFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				843B38A5275E4E7D00B6077B /* BaseTableViewFooterView.h */,
+				843B38A6275E4E7D00B6077B /* BaseTableViewFooterView.m */,
+			);
+			path = BaseTableViewFooterView;
+			sourceTree = "<group>";
+		};
+		843B38A7275E4E7D00B6077B /* BaseTableViewHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				843B38A8275E4E7D00B6077B /* BaseTableViewHeaderView.m */,
+				843B38A9275E4E7D00B6077B /* BaseTableViewHeaderView.h */,
+			);
+			path = BaseTableViewHeaderView;
+			sourceTree = "<group>";
+		};
+		843B38AA275E4E7D00B6077B /* UITableViewHeaderFooterView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				843B38AB275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol */,
+				843B38AE275E4E7D00B6077B /* UITableViewHeaderFooterView+Attribute */,
+			);
+			path = "UITableViewHeaderFooterView+Category";
+			sourceTree = "<group>";
+		};
+		843B38AB275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				843B38AC275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h */,
+				843B38AD275E4E7D00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */,
+			);
+			path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol";
+			sourceTree = "<group>";
+		};
+		843B38AE275E4E7D00B6077B /* UITableViewHeaderFooterView+Attribute */ = {
+			isa = PBXGroup;
+			children = (
+				843B38AF275E4E7D00B6077B /* UITableViewHeaderFooterView+Attribute.m */,
+				843B38B0275E4E7E00B6077B /* UITableViewHeaderFooterView+Attribute.h */,
+			);
+			path = "UITableViewHeaderFooterView+Attribute";
 			sourceTree = "<group>";
 		};
 		84407D392754A7A000B9926E /* UIButton+Category */ = {
@@ -1573,6 +1643,7 @@
 		84B3A49E274D0F010005DF73 /* UIView+Category */ = {
 			isa = PBXGroup;
 			children = (
+				843B3827275E4CBD00B6077B /* UIView+BackgroundLabel */,
 				8445C0E4275A440E00CE16FB /* UIView+AutoSelfAdaptionSize */,
 				84B3A49F274D0F010005DF73 /* UIView+SuspendView */,
 				84B3A4A2274D0F010005DF73 /* UIView+ZFPlayer */,
@@ -2306,46 +2377,10 @@
 		84B3A569274D0F010005DF73 /* UITableViewHeaderFooterView */ = {
 			isa = PBXGroup;
 			children = (
-				84B3A56A274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol */,
-				84B3A56D274D0F010005DF73 /* BaseTableViewHeaderFooterView */,
+				843B38A3275E4E7D00B6077B /* BaseTableViewHeaderFooterView */,
+				843B38AA275E4E7D00B6077B /* UITableViewHeaderFooterView+Category */,
 			);
 			path = UITableViewHeaderFooterView;
-			sourceTree = "<group>";
-		};
-		84B3A56A274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				84B3A56B274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.h */,
-				84B3A56C274D0F010005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m */,
-			);
-			path = "UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol";
-			sourceTree = "<group>";
-		};
-		84B3A56D274D0F010005DF73 /* BaseTableViewHeaderFooterView */ = {
-			isa = PBXGroup;
-			children = (
-				84B3A56E274D0F010005DF73 /* BaseTableViewFooterView */,
-				84B3A571274D0F010005DF73 /* BaseTableViewHeaderView */,
-			);
-			path = BaseTableViewHeaderFooterView;
-			sourceTree = "<group>";
-		};
-		84B3A56E274D0F010005DF73 /* BaseTableViewFooterView */ = {
-			isa = PBXGroup;
-			children = (
-				84B3A56F274D0F010005DF73 /* BaseTableViewFooterView.h */,
-				84B3A570274D0F010005DF73 /* BaseTableViewFooterView.m */,
-			);
-			path = BaseTableViewFooterView;
-			sourceTree = "<group>";
-		};
-		84B3A571274D0F010005DF73 /* BaseTableViewHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				84B3A572274D0F010005DF73 /* BaseTableViewHeaderView.m */,
-				84B3A573274D0F010005DF73 /* BaseTableViewHeaderView.h */,
-			);
-			path = BaseTableViewHeaderView;
 			sourceTree = "<group>";
 		};
 		84B3A574274D0F010005DF73 /* UICollectionViewFlowLayout */ = {
@@ -3119,7 +3154,7 @@
 				C577ADB0263020120097EC0A /* main.m in Sources */,
 				8405F7BE27588C0D00A9682A /* DDUserModel.m in Sources */,
 				84E6D5F3275657B5002BB16E /* NSString+Conversion.m in Sources */,
-				84B3A641274D0F020005DF73 /* BaseTableViewFooterView.m in Sources */,
+				843B38B3275E4E7E00B6077B /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m in Sources */,
 				840321F32758E171009AB588 /* CJTextField.m in Sources */,
 				C58D53882630206200966F5F /* BWItemModel.m in Sources */,
 				84E6D5F8275657B5002BB16E /* NSString+Decoration.m in Sources */,
@@ -3130,11 +3165,13 @@
 				84B3A60B274D0F020005DF73 /* UIView+MJRefresh.m in Sources */,
 				84E6D5F5275657B5002BB16E /* NSString+Eomji.m in Sources */,
 				84B3A601274D0F020005DF73 /* UIView+Gesture.m in Sources */,
+				843B382A275E4CBD00B6077B /* UIView+BackgroundLabel.m in Sources */,
 				8445BB64275A426500CE16FB /* NSObject+DataSave.m in Sources */,
 				84B3A5FF274D0F020005DF73 /* UIView+SuspendView.m in Sources */,
 				84B3A643274D0F020005DF73 /* LMHWaterFallLayout.m in Sources */,
 				84037B7E274CC26D00D9079E /* RACEXTRuntimeExtensions.m in Sources */,
 				840321F22758E171009AB588 /* HQTextField.m in Sources */,
+				843B38B4275E4E7E00B6077B /* UITableViewHeaderFooterView+Attribute.m in Sources */,
 				C58D538C2630206200966F5F /* FileFolderHandleTool.m in Sources */,
 				84B3A649274D0F020005DF73 /* BaseCollectionReusableView.m in Sources */,
 				C58D57D3263022A800966F5F /* WHToast.m in Sources */,
@@ -3195,6 +3232,8 @@
 				84786075275886E90066CAD1 /* NSUserDefaults+Manager.m in Sources */,
 				84B3A60E274D0F020005DF73 /* DeleteSystemUITabBarButton.m in Sources */,
 				84B3A5E4274D0F020005DF73 /* UIImage+Overlay.m in Sources */,
+				843B38B1275E4E7E00B6077B /* BaseTableViewFooterView.m in Sources */,
+				843B38B2275E4E7E00B6077B /* BaseTableViewHeaderView.m in Sources */,
 				84B3A5E2274D0F020005DF73 /* UIImage+YBGIF.m in Sources */,
 				8445BB6B275A426500CE16FB /* NSObject+UDID.m in Sources */,
 				84B3A5DF274D0F020005DF73 /* UIImage+ScreenShot.m in Sources */,
@@ -3207,7 +3246,6 @@
 				84B3A607274D0F020005DF73 /* UIView+ViewController.m in Sources */,
 				C58D538A2630206200966F5F /* BWItemCollectionViewCell.m in Sources */,
 				84B3A62E274D0F020005DF73 /* LOTAnimationMJRefreshHeader.m in Sources */,
-				84B3A640274D0F020005DF73 /* UITableViewHeaderFooterView+BaseTableViewHeaderFooterViewProtocol.m in Sources */,
 				84407D5D2754A7A100B9926E /* ButtonTimerConfigModel.m in Sources */,
 				84B3A61B274D0F020005DF73 /* BaseImageView.m in Sources */,
 				84B3A631274D0F020005DF73 /* LOTAnimationMJRefreshFooter.m in Sources */,
@@ -3252,7 +3290,6 @@
 				84B3A62D274D0F020005DF73 /* MJRefreshConfigModel.m in Sources */,
 				84B3A639274D0F020005DF73 /* UITableView+WWFoldableTableView.m in Sources */,
 				8445BB69275A426500CE16FB /* KeychainHelper.m in Sources */,
-				84B3A642274D0F020005DF73 /* BaseTableViewHeaderView.m in Sources */,
 				C58D57D2263022A800966F5F /* WHToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
